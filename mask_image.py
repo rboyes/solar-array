@@ -20,7 +20,7 @@ import random
 
 import time
 
-def getStaticMap(latlong, zoom, size, image_format='png32', use_proxy = False, api_key='AIzaSyAb8ehOA6s65DORxE6JqQ2ZMU5jMSxXOyE'):
+def getStaticMap(latlong, zoom, size, image_format='png32', use_proxy = False, api_key='empty'):
     import requests
     import urllib.parse
     api_keys = [api_key]
